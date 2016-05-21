@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>fasthelp</title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/1.css">
+</head>
+<body>
+	<header>
+		<img src="img/head.png" class="imghead">
+		<div class="nav" class="clearfix">
+			<img src="img/scrow1.png" class="scrow1">
+			<h3>快速帮助中心</h3>
+			
+		</div>
+	</header>
+	<div class="content">
+		<ul>
+			<li>
+				<div class="pg1">
+					<img src="img/1.png">
+					<p>已审核订单能否取消</p>
+					<img src="img/down.png" class="up" id="upBtn">
+				</div>
+				<div id="answer">
+					答：订单提交后，您将无法自行取消您的订单。若您通过礼金卡进行支付，订单在未审核前，可自动取消订单。其他付款方式取消订单可直接致电1234-000-321
+				</div>
+			</li>
+			<li>
+				<div class="pg1">
+					<img src="img/2.png">
+					<p>如何修改订单</p>
+					<img src="img/down.png" class="up">
+				</div>
+			</li>
+			<li>
+				<div class="pg1">
+					<img src="img/3.png">
+					<p>怎样获得发票</p>
+					<img src="img/down.png" class="up">
+				</div>
+			</li>
+			<li>
+				<div class="pg1">
+					<img src="img/4.png">
+					<p>如何申请退货</p>
+					<img src="img/down.png" class="up">
+				</div>
+			</li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="js/touch-0.2.14.min.js"></script>
+	<script type="text/javascript">
+		var upBtn = document.getElementById("upBtn");
+		touch.on(upBtn,"tap",function(ev){
+			if (answer.style.display == "block"){
+				// alert("g")			 	
+				answer.style.display = "none";
+				upBtn.src = "img/down.png"
+				
+			}else{
+				answer.style.display = "block";
+				upBtn.src = "img/up.png";
+			}
+			// console.log(upBtn.getAttribute("src"));
+		})
+
+	</script>
+</body>
+</html>
