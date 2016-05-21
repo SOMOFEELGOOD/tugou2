@@ -1,0 +1,249 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #47382b;
+}
+ul,li {
+	list-style: none;
+}	
+/*头部*/		
+header {
+	width: 100%;
+	height: 58px;
+	background-color: #47382b;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	opacity: 0.8;
+} 
+/*箭头*/
+.down-arrow {
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	width: 10px;
+	height: 10px;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	transform: rotate(135deg);
+}
+/*购物车*/
+header .span1 {
+	color: white;
+	font-size: 2rem;
+	position: absolute;
+	top: 35%;
+	left: 40%;
+}
+/*编辑*/
+header .aTwo {
+	color: white;
+	font-size: 1.5rem;
+	position: absolute;
+	top: 45%;
+	right: 4%;
+	
+}
+
+/*中间内容*/
+#main {
+	background-color: #ebeae4;
+	/*height: 1000px;*/
+	width:100%;
+	margin: 18% auto 0;
+	overflow: hidden;
+}
+#main .menu-list {
+	width:92%;
+	margin:0 auto;
+}
+
+#main .menu-list li {
+	width:100%;
+	margin: 20px 0;
+	background-color: white;
+	height: 120px;
+	box-shadow: 2px 2px 5px  gray;
+	overflow: hidden;
+	position: relative;
+}
+/*按钮的样式*/
+input[type=checkbox] {
+				visibility: hidden;
+			}
+			.checkboxFour {
+				width: 20px;
+				height: 20px;
+				background: transparent;
+				margin:50px 2%;
+				border-radius: 100%;
+				position: relative;
+				border: 2px solid gray;
+			}
+			.checkboxFour label {
+				display: block;
+				width: 14px;
+				height: 14px;
+				border-radius: 100%;
+				-webkit-transition: all .3s ease;
+				-moz-transition: all .3s ease;
+				-o-transition: all .3s ease;
+				-ms-transition: all .3s ease;
+				transition: all .3s ease;
+				cursor: active;
+				position: absolute;
+				top: 3px;
+				left: 3px;
+				z-index: 1;
+				background: transparent;
+			}
+			.checkboxFour input[type = checkbox]:checked + label {
+				background: #26ca28;
+			}
+/*图片*/			
+#img1{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 10px;
+	left: 12%;
+	border-radius: 5px;
+	
+}
+/*图片的文字说明*/
+#divText {
+
+	position: absolute;
+	top: 15px;
+	left:48%;
+}
+#divText p:nth-of-type(1) {
+	font-size:1.4rem;
+}
+#divText p:nth-of-type(2) {
+	font-size:0.9rem;
+}
+/*图片东西的价格*/
+#divPrice {
+	width: 52%;
+	position: absolute;
+	bottom: 10.5%;
+	left: 48%;
+}
+#divPrice .spanPrice {
+	font-size: 1.6rem;
+	color: red;
+}
+
+/*购物车的加减*/
+#spanShop {
+	float: right;
+	margin-right: 3%;
+}
+.input-number {
+  width: 26px;
+  vertical-align: top;
+  text-align: center;
+  outline: none;
+   display: inline-block;
+ border-radius: 0;
+}
+
+.input-number,
+.input-number-decrement,
+.input-number-increment {
+  border: 1px solid #cccccc;
+  height: 26px;
+  user-select: none;
+  box-sizing: border-box;
+   border: 2px solid gray;
+      display: inline-block;
+
+  
+}
+
+.input-number-decrement,
+.input-number-increment {
+  display: inline-block;
+  width: 26px;
+  line-height: 20px;
+  background: #f1f1f1;
+  color: #444444;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.input-number-decrement:active,
+.input-number-increment:active {
+  background: #dddddd;
+}
+
+.input-number-decrement {
+  border-right: none;
+ /* border-radius: 0px 0 0 0px;*/
+ border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+
+.input-number-increment {
+  border-left: none;
+  /*border-radius: 0 0px 0px 0;*/
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/*底下的固定栏*/
+#bottomBar {
+	position: relative;
+}
+#bottomBar .bottomBar-left {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width:80%;
+	background-color: #47382b;
+	height: 47px;
+	opacity: 0.8;
+}
+#bottomBar .bottomBar-left .checkboxFour {
+	margin:12px 2%;	
+	}
+#bottomBar .bottomBar-left .spanAll	{
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	color: white;
+	font-size: 1.4rem;
+}
+#bottomBar .bottomBar-left .spanMoney	{
+	position: absolute;
+	top: 15%;
+	left: 35%;
+	color: white;
+	font-size: 1.6rem;
+}
+#bottomBar .bottomBar-left .spanAllMoney	{
+	position: absolute;
+	top: 60%;
+	left: 35%;
+	color: white;
+	font-size: 1.1rem;
+}
+
+#bottomBar .bottomBar-right {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width:20%;
+	background-color: #fc603b;
+	height: 47px;
+	opacity: 1;
+	z-index: 20;
+	text-align: center;
+	color: white;
+	line-height: 47px;
+	font-size: 1.6rem;
+}

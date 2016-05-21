@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #47382b;
+}
+/*头部*/		
+header {
+	width: 100%;
+	height: 61px;
+	background-color: #47382b;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	opacity: 0.8;
+} 
+.btnOne {
+	width:60px;
+	height:30px;
+	background-color: #47382b;
+	box-shadow:2px 2px 2px black inset;
+	border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 1px solid #6b5442 ;
+    border-right: none;
+}
+.btnTwo {
+	width:60px;
+	height:30px;
+	background-color: #47382b;
+	box-shadow:-2px 2px 2px black inset;
+	border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: 1px solid #6b5442 ;
+    border-left: none;
+}
+/*.span1 {
+	color:white;
+	font-size: 1.4rem;
+	display: inline-block;
+	box-sizing: border-box;
+    border: 2px solid #47382b;
+}
+.span2 {
+	color:white;
+	font-size: 1.4rem;
+}*/
+
+/*中间内容*/
+#main {
+	background-color: #ebeae4;
+	height: 5000px;
+	width:100%;
+	margin: 19% auto 0;
+	/*overflow: hidden;*/
+}

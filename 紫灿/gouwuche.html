@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车页面视觉</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/buy.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+</head>
+<body>
+	<header>
+		<!-- 标题上的箭头 -->
+		<div class="down-arrow" id="downArrow"></div>
+	 	<span class="span1">购物车</span>
+		<a href="###" class="aTwo">编辑</a>
+	</header>
+	
+	<div id="main">
+		<ul class="menu-list">
+			<li>
+				<!--多选框-->
+				<div class="checkboxFour">
+					<input type="checkbox" name="" id="checkbox" value="1" />
+					<label for="checkbox"></label>
+				</div>
+				<!--图片-->
+				<a href="" >
+					<img id="img1" src="img/1.png" alt="" />
+				</a>
+				<!--文字说明-->
+				<div id="divText">
+					<p>科尔沁牛腩切块500g</p>
+					<p>脂肪少，适合炖汤</p>
+				</div>
+				<!--底下价格-->
+				<div id="divPrice">
+					<span class="spanPrice">&yen;21.80</span>
+					<span id="spanShop">
+						<span class="input-number-decrement">–</span><input class="input-number" type="text" value="1" min="0" max="10"><span class="input-number-increment">+</span>
+					</span>	
+				</div>
+			</li>
+			
+			<li>
+				<!--多选框-->
+				<div class="checkboxFour">
+					<input type="checkbox" name="" id="checkbox" value="1" />
+					<label for="checkbox"></label>
+				</div>
+				<!--图片-->
+				<a href="" >
+					<img id="img1" src="img/1.png" alt="" />
+				</a>
+				<!--文字说明-->
+				<div id="divText">
+					<p>科尔沁牛腩切块500g</p>
+					<p>脂肪少，适合炖汤</p>
+				</div>
+				<!--底下价格-->
+				<div id="divPrice">
+					<span class="spanPrice">&yen;21.80</span>
+					<span id="spanShop">
+						<span class="input-number-decrement">–</span><input class="input-number" type="text" value="1" min="0" max="10"><span class="input-number-increment">+</span>
+					</span>	
+				</div>
+			</li>
+			
+			<li>
+				<!--多选框-->
+				<div class="checkboxFour">
+					<input type="checkbox" name="" id="checkbox" value="1" />
+					<label for="checkbox"></label>
+				</div>
+				<!--图片-->
+				<a href="" >
+					<img id="img1" src="img/1.png" alt="" />
+				</a>
+				<!--文字说明-->
+				<div id="divText">
+					<p>科尔沁牛腩切块500g</p>
+					<p>脂肪少，适合炖汤</p>
+				</div>
+				<!--底下价格-->
+				<div id="divPrice">
+					<span class="spanPrice">&yen;21.80</span>
+					<span id="spanShop">
+						<span class="input-number-decrement">–</span><input class="input-number" type="text" value="1" min="0" max="10"><span class="input-number-increment">+</span>
+					</span>	
+				</div>
+			</li>
+			
+			<li>
+				<!--多选框-->
+				<div class="checkboxFour">
+					<input type="checkbox" name="" id="checkbox" value="1" />
+					<label for="checkbox"></label>
+				</div>
+				<!--图片-->
+				<a href="" >
+					<img id="img1" src="img/1.png" alt="" />
+				</a>
+				<!--文字说明-->
+				<div id="divText">
+					<p>科尔沁牛腩切块500g</p>
+					<p>脂肪少，适合炖汤</p>
+				</div>
+				<!--底下价格-->
+				<div id="divPrice">
+					<span class="spanPrice">&yen;21.80</span>
+					<span id="spanShop">
+						<span class="input-number-decrement">–</span><input class="input-number" type="text" value="1" min="0" max="10"><span class="input-number-increment">+</span>
+					</span>	
+				</div>
+			</li>
+			
+			<li>
+				<!--多选框-->
+				<div class="checkboxFour">
+					<input type="checkbox" name="" id="checkbox" value="1" />
+					<label for="checkbox"></label>
+				</div>
+				<!--图片-->
+				<a href="" >
+					<img id="img1" src="img/1.png" alt="" />
+				</a>
+				<!--文字说明-->
+				<div id="divText">
+					<p>科尔沁牛腩切块500g</p>
+					<p>脂肪少，适合炖汤</p>
+				</div>
+				<!--底下价格-->
+				<div id="divPrice">
+					<span class="spanPrice">&yen;21.80</span>
+					<span id="spanShop">
+						<span class="input-number-decrement">–</span><input class="input-number" type="text" value="1" min="0" max="10"><span class="input-number-increment">+</span>
+					</span>	
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+	<footer id="bottomBar">
+		<div class="bottomBar-left">
+			<div class="checkboxFour">
+					<input type="checkbox" name="" id="checkbox" value="1" />
+					<label for="checkbox"></label>
+			</div>
+			<span class="spanAll">全选</span>
+			<span class="spanMoney">合计: &yen;21.80</span>
+			<span class="spanAllMoney">总额: 21.80</span>
+			
+		</div>
+		<div class="bottomBar-right">去结算(1)</div>
+	</footer>
+	
+	<script src="http://www.zaole.net/sliding.js"></script>
+
+
+  <script>
+    (function() {
+
+  window.inputNumber = function(el) {
+
+    var min = el.attr('min') || false;
+    var max = el.attr('max') || false;
+
+    var els = {};
+
+    els.dec = el.prev();
+    els.inc = el.next();
+
+    el.each(function() {
+      init($(this));
+    });
+
+    function init(el) {
+
+      els.dec.on('click', decrement);
+      els.inc.on('click', increment);
+
+      function decrement() {
+        var value = el[0].value;
+        value--;
+        if(!min || value >= min) {
+          el[0].value = value;
+        }
+      }
+
+      function increment() {
+        var value = el[0].value;
+        value++;
+        if(!max || value <= max) {
+          el[0].value = value++;
+        }
+      }
+    }
+  }
+})();
+
+inputNumber($('.input-number'));
+    //@ sourceURL=pen.js
+  </script>
+
+</body>
+</html>
