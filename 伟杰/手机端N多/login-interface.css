@@ -1,0 +1,89 @@
+body{
+	width: 100%;
+	font-family: "microsoft yahei";
+}
+html{
+	height: 100%;
+}
+header{
+	background-color: #47382b;
+}
+#toppest{
+	width: 100%;
+}
+#arrow{
+	width: 3.7%;
+	position: absolute;
+	left: 3%;
+	top: 3%;
+}
+header p{
+	font-size: 20px;
+	color: white;
+	font-weight: 10;
+	text-align: center;
+	padding-bottom: 2%;
+}
+.main{	
+	padding-bottom: 30%;
+}
+#rabbit{
+	width: 24%;
+	margin: 10% auto;
+}
+#input-bar{
+	width: 90%;
+	margin: 0 auto;
+}
+.main input{
+	border-top: none;
+	border-left:none;
+	border-right:none;
+	width: 100%;
+	border-bottom: 1px solid #A1A1A1;
+	margin-top: 6.7%;
+}
+#login-btn{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	background-color: #47382B;
+	border: none;
+	color: white;
+	margin-top: 6.7%;
+	border-radius: 20px;
+}
+#login-words{
+	margin-top: 10%;
+	font-size: 8px;	
+	text-align: center;
+}
+.login-logos{
+	width: 50%;
+	margin: 2% auto;
+}
+.login-logos img{
+	width: 20px;
+	height: 18px;
+	display: inline-block;
+	float: left;
+}
+.login-logos>img{
+	margin-left: 20%;
+}
+.login-logos>img:nth-of-type(1){
+	margin-left: 0;
+}
+footer a{
+	color: rgb(150,150,150);
+}
+footer>a:nth-of-type(1){
+	position: absolute;
+	bottom: 5%;
+	left: 10px;
+}
+footer>a:nth-of-type(2){
+	position: absolute;
+	bottom: 5%;
+	right: 10px;
+}

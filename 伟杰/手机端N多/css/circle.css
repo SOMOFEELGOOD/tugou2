@@ -1,0 +1,88 @@
+body{
+	width: 100%;
+	font-family: "microsoft yahei";
+}
+html{
+	height: 100%;
+}
+header{
+	box-shadow: 1px 1px 2px saddlebrown;
+}
+header img{
+	width: 100%;
+}
+li{
+	border-top: 6.5px solid #EBEAE4;
+	position: relative;
+}
+li img{
+	width: 100%;
+}
+.stuff{
+	display: block;
+	background-size: cover;
+	background-position: center center; 
+}
+.avatar{
+	width: 10%;
+	display: inline-block;
+	float: left;
+	margin-left: 3%;
+	margin-top: 2%;
+}
+.collect{
+	width: 10%;
+	float: right;
+	margin-right: 3%;
+	margin-top: 3%;
+}
+.stuff-words{
+	display: inline-block;
+	float: left;
+	color: white;
+	font-size: 0.4em;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+.middle-words{
+	width: 100%;
+	border-bottom: 1px solid #EBEBEB;
+}
+.middle-words p:nth-of-type(1){
+	margin-top: 2%;
+	margin-left: 2%;
+	font-weight: 100;
+}
+.middle-words p:nth-of-type(2){
+	margin-bottom: 2%;
+	margin-left: 2%;
+	color: rgb(177,177,177);
+	font-weight: 100;
+}
+.three-logo{
+	width: 100%;
+	height: 20px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.three-logo img{
+	width: 5%;
+	display: inline-block;
+	float: left;
+	margin-left: 3%;
+}
+.three-logo img:nth-of-type(2){
+	float:left;
+	margin-left: 8%;
+}
+.three-logo img:nth-of-type(3){
+	float: right;
+	margin-right: 3%;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+}
+footer img{
+	width: 100%;
+}

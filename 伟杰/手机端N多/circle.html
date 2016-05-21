@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+		<link rel="stylesheet" type="text/css" href="css/circle.css"/>
+		<title>circle</title>
+	</head>
+	<body>
+		<header>
+			<img id="toppest" src="img/toppest.png"/>
+			<img src="img/3/1.png"/>
+		</header>
+		<div class="main">
+			<ul>
+				<li>
+					<div class="stuff" style="background-image:url(img/3/pic1.png) ;">
+						<a href="###"><img class="avatar" src="img/3/avatar1.png"/></a>
+						<p class="stuff-words">
+						<span>长颈鹿妹妹</span>
+						<br />
+						<span>2016.03.20.21:26 发布</span>
+						</p>
+						<a href="###"><img class="collect" src="img/3/collect.png"/></a>
+					</div>
+					<div class="middle-words">
+						<p>水果拼盘</p>
+					    <p>深夜做好的水果拼盘,第一次啦,多多指教</p>
+					</div>
+					<div class="three-logo">
+						<img src='img/3/like.png'/>
+						<img src="img/3/comment.png"/>
+						<img src="img/3/more.png"/>
+					</div>
+				</li>
+				<li>
+					<div class="stuff" style="background-image:url(img/3/pic2.png) ;">
+						<a href="###"><img class="avatar" src="img/3/avatar2.png"/></a>
+						<p class="stuff-words">
+						<span>小黑与小黄</span>
+						<br />
+						<span>2016.03.20.21:26 发布</span>
+						</p>
+						<a href="###"><img class="collect" src="img/3/collect.png"/></a>
+					</div>
+					<div class="middle-words">
+						<p>番茄意面</p>
+					    <p>一直做给自己吃,今天分享出来,不太明白的私信我</p>
+					</div>
+					<div class="three-logo">
+						<img src='img/3/like.png'/>
+						<img src="img/3/comment.png"/>
+						<img src="img/3/more.png"/>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<footer>
+			<img src="img/3/footer.png"/>
+		</footer>
+		<script type="text/javascript">
+			var width = document.documentElement.offsetWidth;
+			var height = 0.47 * width;
+			var stuff = document.getElementsByClassName("stuff");
+			
+//			stuff[0].style.height = height + "px";
+//			stuff[1].style.height = height + "px";
+            for(var i = 0; i <= stuff.length; i++){
+            	    stuff[i].style.height = height + "px";
+            }
+		</script>
+	</body>
+</html>

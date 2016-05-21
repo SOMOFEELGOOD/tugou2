@@ -1,0 +1,72 @@
+body{
+	width: 100%;
+	font-family: "microsoft yahei";
+}
+html{
+	height: 100%;
+}
+header{
+	background-color: #47382b;
+}
+#toppest{
+	width: 100%;
+}
+#arrow{
+	width: 3.7%;
+	max-width: 11px;
+	position: absolute;
+	left: 3%;
+	top: 3.5%;
+}
+header p{
+	font-size: 20px;
+	color: white;
+	font-weight: 10;
+	text-align: center;
+	padding-bottom: 2%;
+}
+.li-bar{
+	padding-top: 4%;
+	padding-bottom: 9%;
+	border-bottom: 1px solid gainsboro; 
+}
+.bar1{
+	height: 20px;
+	background-color: #EEEEEE;
+}
+.bar-words{
+	font-size: 1.5em;
+	display: inline-block;
+	float: left;
+	margin-left: 2%;
+}
+.logo{
+	width: 4%;
+	float: left;
+	margin-left: 2%;
+	margin-top: 3px;
+}
+.arrow-down{
+	width: 5%;
+	float: right;
+	margin-right: 4%;
+	margin-top: 5px;
+	max-width: 18.75px;
+}
+.arrow-up{
+	width: 5%;
+	float: right;
+	margin-right: 4%;
+	margin-top: 5px;
+	max-width: 18.75px;
+	display: none;
+}
+.detail{
+	display: none;
+	background-color: #EEEEEE;
+	font-size: 1.5em;
+	padding-left: 8%;
+	padding-right: 2%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}

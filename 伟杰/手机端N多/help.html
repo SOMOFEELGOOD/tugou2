@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+		<link rel="stylesheet" type="text/css" href="css/help.css"/>
+		<title>help</title>
+	</head>
+	<body>
+		<header>
+			<img id="toppest" src="img/toppest.png"/>
+			<img id="arrow" src="img/arrow.png"/>
+			<p>快速帮助中心</p>
+		</header>
+		<div class="bar1"></div>
+		<div id="main">
+			
+			<ul>
+				<li>
+					<div class="li-bar">
+					<img class="logo" src="img/2/1.png"/>
+					<p class="bar-words">已审核订单能否取消</p>
+					<img class="arrow-down" src="img/2/5.png"/>
+					<img class="arrow-up" src="img/2/6.png"/>
+					</div>
+					<p class="detail">
+						答：订单提交后，您将无法自行取消您的订单。若您通过礼金卡进行支付，订单在未审核前，可自行取消订单。其他付款方式取消订单可直接致电123-000-321
+					</p>
+				</li>
+				<li><div class="li-bar">
+					<img class="logo" src="img/2/2.png"/>
+					<p class="bar-words">如何修改订单</p>
+					<img class="arrow-down" src="img/2/5.png"/>
+					</div>
+					<p class="detail"></p>
+				</li>
+				<li><div class="li-bar">
+					<img class="logo" src="img/2/3.png"/>
+					<p class="bar-words">怎样获得发票</p>
+					<img class="arrow-down" src="img/2/5.png"/>
+					</div>
+					<p class="detail"></p>
+				</li>
+				</li>
+				<li><div class="li-bar">
+					<img class="logo" src="img/2/4.png"/>
+					<p class="bar-words">如何申请退货</p>
+					<img class="arrow-down" src="img/2/5.png"/>
+					</div>
+					<p class="detail"></p>
+				</li>
+				</li>
+			</ul>
+		</div>
+		<script src="js/tween.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var arrowDown = document.getElementsByClassName("arrow-down");
+			var detail = document.getElementsByClassName("detail");
+			var arrowDown = document.getElementsByClassName("arrow-down");
+			var arrowUp = document.getElementsByClassName("arrow-up");
+			arrowDown[0].ontouchstart = function(){
+				detail[0].style.display = "inline-block";
+				arrowDown[0].style.display = "none";
+				arrowUp[0].style.display = "inline-block";
+//				var start = 0;
+//			    var end = detail[0].offsetHeight;
+//			    var change = end - start;
+//			    var t = 0;
+//			    var maxT = 30;
+//			    var timer = setInterval(function() {
+//				t++;
+//				if(t >= maxT) {
+//					clearInterval(timer);
+//		        }
+//			    detail[0].style.height = Tween.Bounce.easeOut(t,start,change,maxT) +"px";
+//			    },30)
+			}
+			arrowUp[0].ontouchstart = function(){
+				detail[0].style.display = "none";
+				arrowDown[0].style.display = "inline-block";
+				arrowUp[0].style.display = "none";
+			}
+		</script>
+	</body>
+</html>
