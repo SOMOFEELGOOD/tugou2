@@ -1,0 +1,76 @@
+/*导航栏开始*/
+nav{
+	width: 100%;
+	padding: 4%;
+	background-color: #48382b;
+	box-sizing: border-box;
+}
+h1{
+	display: none;
+}
+nav>ul{
+	height: 20px;
+	position: relative;
+}
+.left-arrow{
+	width: 11px;
+	height: 20px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.centerList{
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+.sureOrderTitle{
+	width: 67px;
+	height: 16px;
+}
+/*导航栏结束*/
+
+
+/*section开始*/
+.deliverInfor{
+	height: 132px;
+	box-sizing: border-box;
+	padding: 58px 15px 0px 37px;
+	background-color: #ebeae4;
+	position: relative;
+
+}
+.person{
+	font-size: 1.6rem;
+	line-height: 1.6rem;
+	margin-bottom: 15px;
+}
+.adress{
+	font-size: 1rem;
+	line-height: 1rem;
+}
+.emailBar{
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	bottom: 6px;
+	left: 0;
+}
+.goDeliver{
+	width: 8px;
+	height: 15px;
+	position: absolute;
+	right: 16px;
+	bottom: 45px;
+}
+.goodNum{
+	padding: 4px 16px;
+	box-sizing: border-box;
+}
+.goodMask{
+	
+}
+
+
+
+/*secion结束*/

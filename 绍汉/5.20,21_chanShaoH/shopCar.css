@@ -1,0 +1,228 @@
+/*导航栏开始*/
+nav{
+	width: 100%;
+	padding: 4%;
+	background-color: #48382b;
+	box-sizing: border-box;
+}
+.navList{
+	display: flex;
+	justify-content: space-between;
+}
+h1{
+	display: none;
+}
+.left-arrow{
+	width: 11px;
+	height: 20px;
+}
+.shopCarTitle{
+	width: 50px;
+	height: 16px;
+	margin-left: 20%;
+}
+.editImg{
+	width: 24px;
+	height: 12px;
+}
+/*导航栏结束*/
+
+
+/*正文List 开始*/
+section{
+	width: 100%;
+	padding: 3.3% 4%;
+	background-color: #ebeae4;
+	box-sizing: border-box;
+}
+#purchase>li{
+	width: 100%;
+	height: 121px;
+	background-color: white;
+	box-shadow: 3px 3px 1px hsla(120,24%,9%,0.1),-3px -3px 1px hsla(120,24%,9%,0.1);
+	box-sizing: border-box;
+	padding: 10px;
+	margin-bottom: 11px;
+}
+.buyBtn{
+	width: 15px;
+	height: 100%;
+	float: left;
+	background: url(images/btnGray.png) no-repeat;
+	background-size: 15px 15px;
+	background-position: 0 43px;
+	margin-right: 15px;
+}
+.activBtn{
+	width: 10px;
+	height: 10px;
+	margin: 41px auto 0;
+	/*change when active*/
+	/*display: block;*/
+	display: none;
+}
+.food{
+	width: 101px;
+	height: 100%;
+	float: left;
+	position: relative;
+	margin-right: 5.72%;
+}
+.foodMask{
+	width: 101px;
+	height: 100%;
+	background-color: rgba(255,255,255,0.2);
+	position: absolute;
+	z-index: 1;
+}
+.foodPic{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+	border-radius: 3px;
+}
+.intro{
+	height: 100%;
+	float: left;
+	width: 52%;
+	box-sizing: border-box;
+	padding: 10px 0 3px;
+	color: #2b2929;
+	position: relative;
+}
+.foodTitle{
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+	margin-bottom: 7.5px;
+	font-weight: bold;
+}
+.footAdv{
+	font-size: 1rem;
+	line-height: 1rem;
+	font-weight: 200;
+}
+.price{
+	position: absolute;
+	bottom: 3px;
+	left: 3px;
+	font-size: 1.2rem;
+	color: #fb0f03;
+	font-size: 900;
+}
+.chooseNum{
+	width: 52px;
+	height: 17px;
+	position: absolute;
+	background: url(images/num.png) no-repeat;
+	border-radius: 3px;
+	bottom: 3px;
+	right: 0;
+	background-size: 100%;
+	padding: 2px;
+	box-sizing: border-box;
+}
+.minus{
+	width: 33%;
+	height: 100%;
+	float: left;
+	background: url(images/minus.png) no-repeat;
+	background-size: 100%;
+	background-position: 2px 48%;
+	box-sizing: border-box;
+	border-right:2px solid #ededed;
+}
+.num{
+	width: 33%;
+	height: 100%;
+	float: left;
+	font-size: 0.8rem;
+	color: #0b0b0b;
+	text-align: center;
+	line-height: 100%;
+	font-size: bold;
+}
+.plus{
+	width: 33%;
+	height: 100%;
+	background: url(images/plus.png) no-repeat;
+	background-size: 80%;
+	background-position: 2px;
+	float: left;
+	border-left:2px solid #ededed;
+	box-sizing: border-box;
+}
+/*正文List 结束*/
+
+/*页脚 footer开始*/
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 8%;
+	background-color: rgba(72,56,43,0.84);
+	padding: 10px 0 8px 15px;
+	box-sizing: border-box;
+	color: white;
+}
+.allChoose{
+	width: 12.1%;
+	float: left;
+	height: 100%;
+	padding: 9px 0 5px;
+	margin-right: 7%;
+}
+.btnWhite{
+	background: url(images/btnWhite.png) no-repeat;
+	height: 16px;
+	width: 16px;
+	background-size: 100%;
+	float: left;
+}
+.allChoose>p{
+	float: right;
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+}
+.allPrice{
+	float: left;
+	height: 100%;
+}
+.total{
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 7px;
+}
+.allCount{
+	font-size: 0.9rem;
+	font-weight: bold;
+	line-height: 0.9rem;
+}
+.payBill{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 27%;
+	background-color: #ff5e39;
+	height: 100%;
+	padding: 16px 0 13px 15px;
+	box-sizing: border-box;
+	color: white;
+}
+.goToPay{
+	font-size: 1.6rem;
+	line-height: 1.6rem;
+	font-weight: bold;
+	float: left;
+}
+#goodNum{
+	font-size: 1rem;
+	line-height: 2.2rem;
+	float: left;
+	margin-left: 4px;
+	font-weight: bold;
+}
+
+/*页脚 footer 结束*/
