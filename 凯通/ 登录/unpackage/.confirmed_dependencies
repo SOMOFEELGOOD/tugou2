@@ -1,0 +1,10 @@
+{
+	"index.html": {
+		"resources": [
+			"css/base.css",
+			"img/footer.png",
+			"img/fb.png",
+			"img/title.png"
+		]
+	}
+}

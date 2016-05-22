@@ -1,0 +1,8 @@
+{
+	"index.html": {
+		"resources": [
+			"img/icon_bar.png",
+			"css/base.css"
+		]
+	}
+}
