@@ -1,0 +1,18 @@
+{
+	"index.html": {
+		"resources": [
+			"img/detail-img/btn-g.png",
+			"img/detail-img/big-pic.png",
+			"img/detail-img/xin1.png",
+			"img/detail-img/step.png",
+			"img/detail-img/cailiao.png",
+			"css/idangerous.swiper.css",
+			"css/detail.css",
+			"img/detail-img/xin2.png",
+			"img/detail-img/nav.png",
+			"img/detail-img/step1.png",
+			"css/reset.css",
+			"img/detail-img/nav-arr.png"
+		]
+	}
+}

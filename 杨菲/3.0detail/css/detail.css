@@ -1,0 +1,202 @@
+@charset "uft-8";
+/*菜品详情*/
+/*菜品详情顶部*/
+html,body {
+	height: 100%;
+}
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 45px;
+	/*padding: 4px;*/
+	box-sizing: border-box;
+	background-color: #48382b;
+}
+/*返回三角*/
+.nav-arr {
+	display: inline-block;
+	width: 3.4%;
+	margin-left: 3.5%;
+	margin-top: 2.2%;
+}
+.nav-arr img {
+	width: 100%;
+	height: 100%;
+}
+/*头部标题*/
+.detail-title {
+	position: absolute;
+	bottom: 31%;
+	left: 50%;
+	margin-left: -3.2rem;
+	font-size: 1.6rem;
+	color: #fff;
+
+}
+/*主体内容*/
+#main {
+	margin-top: 45px;
+	background-color: #fff;
+}
+/*菜品大图*/
+.dish-pic {
+	height: 52%;
+}
+.dish-pic img {
+	/*width: 100%;*/
+	/*height: 100%;*/
+}
+/*菜品信息*/
+.dish {
+	margin: 4%;
+	margin-bottom: 0;	
+}
+/*菜品名称*/
+.dish-name {
+	float: left;
+}
+.dish-name h2 {
+	margin-bottom: 1.4rem;
+	font-size: 1.6rem;
+}
+.dish-name p {	
+	font-size: 1.4rem;
+	color: #98999a;
+}
+/*评价*/
+.dish-praise {
+	float: right;
+}
+.praise {
+	margin-bottom: 1.4rem;
+}
+.praise img {
+	width: 17px;
+	height: 16px;
+}
+.dish-praise p:nth-child(2) {
+	float: right;
+	color: #98999a;
+	font-weight: normal;
+}
+/*按钮*/
+.btn-public {
+	float: left;
+	width: 21.3%;
+	height: 2.2rem;
+	margin-bottom: 3.7%;
+	font-size: 1.2rem;
+	color: #fff;
+	text-align: center;
+	line-height: 2.2rem;
+	background: url("../img/detail-img/btn-g.png") no-repeat;
+	background-size: 100% 100%;
+}
+#btn-menu {
+	margin-top: 7.2%;
+}
+#btn-guides {
+	margin-top: 3.7%;
+}
+/*材料*/
+.detail-material {
+	background-color: #eaebe5;
+}
+.material {
+	float: left;
+	width: 30.6%;
+	height: 33.3%;
+	margin: 2.5%;
+	margin-right: 0;
+	padding: 0.4rem 0;
+	color: #98999a;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 10%;	
+	box-sizing: border-box;
+}
+/*材料图片*/
+.material-pic {
+	display: inline-block;
+	width: 65%;
+	
+}
+
+/*攻略*/
+
+/*主料、辅料*/
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+tr,td,th {
+	border: 1px solid #e4e5e6;
+	color: #98999a;
+}
+th {
+	height: 28px;
+	font-size: 1.2rem;
+}
+td {
+	width: 49.9%;
+	text-align: center;
+}
+.row {
+	height: 40px;
+}
+
+/*步骤*/
+.detail-step {
+	padding: 4%;
+	box-sizing: border-box;
+}
+.detail-step li {
+	margin-top: 4%;
+}
+.detail-step div {
+	float: left;
+}
+.step-pic {
+	width: 64%;
+}
+.spet-word {
+	width: 32%;
+	margin-left: 4%;
+}
+.spet-word p:nth-child(1) {
+	font-size: 1.2rem;
+}
+.spet-word p:nth-child(2) {
+	margin-top: 6%;
+	font-size: 1.1rem;
+	color: #98999a;
+	line-height: 1.8rem;
+}
+
+/*底部*/
+footer {
+	height: 45px;
+}
+footer ul {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+footer li {
+	float: left;
+	width: 50%;
+	height: 45px;	
+	text-align: center;
+	line-height: 45px;
+}
+footer a {
+	font-size: 1.5rem;
+	color: #fff;
+}
+footer li:nth-child(1) {
+	background-color: #faa947;
+}
+footer li:nth-child(2) {
+	background-color: #fb613b;
+}
